@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff3c68;
+}
+
+#title h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 0 5%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#features p {
+  color: #666;
+}
+
+#testimonials,
+#press {
+  background-color: #ef8172;
+}
+
+#testimonials {
+  text-align: center;
+  color: #fff;
+}
+
+#testimonials .carousel-item {
+  padding: 4rem 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px;
+
+}
+
+#press {
+  padding: 0 8% 3rem;
+}
+
+#press img {
+  width: 16%;
+  min-width: 90px;
+  max-width: 180px;
+  margin: 0.75rem;
+}
+
+#cta {
+  background-color: #ff3c68;
+}
+
+#title {
+  overflow: hidden;
+  padding-top: 1.5rem;
+}
+
+#title > .navbar,
+#title > .container {
+  width: 90%;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+#title .navbar-brand,
+#title .nav-link {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  #title .row {
+    min-height: 27rem;
+  }
+
+  #title .row > :last-child {
+    position: relative;
+  }
+
+  #title .title-image {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .title-image {
+    display: block;
+    max-width: 260px;
+    margin: 3rem auto 2rem;
+  }
+}
+
+#features,
+#pricing,
+#cta,
+#footer {
+  padding-block: clamp(4rem, 8vw, 8rem) !important;
+}
+
+#features p {
+  max-width: 16rem;
+  margin-inline: auto;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials h2 {
+  max-width: 60rem;
+  margin-inline: auto;
+  line-height: 1.5;
+}
+
+#press {
+  padding-bottom: clamp(3rem, 6vw, 6rem);
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
